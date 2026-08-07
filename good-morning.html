@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good Morning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#ffffff;
+    --ink-soft:#f1efeb;
+    --ink-faint:#dcd9d2;
+    --line:rgba(255,255,255,0.10);
+    --card:rgba(255,255,255,0.055);
+    --card-strong:rgba(255,255,255,0.09);
+    --coral:#ff9b6e;
+    --mint:#4fd8b0;
+    --edge:#d9d6cd;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:#0a0a10;}
+  body{
+    font-family:'Inter',-apple-system,"Segoe UI",sans-serif;
+    color:var(--ink);
+    min-height:100vh;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ambient animated gradient — bright stare in the center, shifting hues at the edges */
+  .glow{
+    position:fixed; inset:-20%;
+    z-index:0;
+    filter:blur(65px);
+    opacity:0.65;
+    background:
+      radial-gradient(circle at 50% 40%, var(--coral) 0%, var(--edge) 55%, transparent 80%),
+      radial-gradient(circle at 8% 92%, var(--edge) 0%, transparent 50%),
+      radial-gradient(circle at 94% 90%, var(--edge) 0%, transparent 50%);
+    animation: drift 38s ease-in-out infinite;
+    background-size:180% 180%;
+  }
+  @keyframes drift{
+    0%{ transform: translate(0,0) rotate(0deg) scale(1); }
+    33%{ transform: translate(-3%,3%) rotate(6deg) scale(1.07); }
+    66%{ transform: translate(3%,-3%) rotate(-5deg) scale(1.04); }
+    100%{ transform: translate(0,0) rotate(0deg) scale(1); }
+  }
+  @media (prefers-reduced-motion: reduce){ .glow{ animation:none; } }
+
+  .wrap{
+    position:relative; z-index:1;
+    max-width:640px; margin:0 auto;
+    padding:40px 20px 80px;
+  }
+
+  header.top{ margin-bottom:28px; }
+  .eyebrow{
+    font-family:'Fraunces', Georgia, serif;
+    font-style:italic;
+    font-weight:400;
+    font-size:13px; letter-spacing:.02em;
+    color:var(--ink-soft); margin-bottom:12px;
+  }
+  h1.greeting{
+    font-family:'Fraunces', Georgia, serif;
+    font-weight:500;
+    font-size:clamp(28px, 6vw, 38px);
+    line-height:1.15;
+    letter-spacing:-.01em;
+    color:var(--ink);
+    margin-bottom:14px;
+  }
+  .weather-row{
+    display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
+    color:var(--ink-soft); font-size:14px;
+  }
+  .weather-row .temp{ font-size:20px; color:var(--ink); font-weight:600; }
+  .weather-row .dot{ opacity:.4; }
+
+  section{ margin-bottom:26px; }
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:20px;
+    backdrop-filter: blur(22px) saturate(140%);
+    -webkit-backdrop-filter: blur(22px) saturate(140%);
+    padding:22px 22px 20px;
+  }
+  .card + .card{ margin-top:12px; }
+  .section-title{
+    font-family:'Fraunces', Georgia, serif;
+    font-style:italic;
+    font-weight:400;
+    font-size:15px;
+    color:var(--ink-soft); margin-bottom:14px;
+    display:flex; align-items:baseline; justify-content:space-between;
+  }
+  .section-title .count{
+    font-family:'Inter',sans-serif; font-style:normal;
+    font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-faint); font-weight:500;
+  }
+
+  /* schedule / today */
+  .agenda-item{
+    display:flex; gap:14px; padding:9px 0;
+    border-bottom:1px solid var(--line);
+    font-size:14px;
+  }
+  .agenda-item:last-child{ border-bottom:none; }
+  .agenda-time{ color:var(--ink-faint); min-width:64px; font-size:12.5px; padding-top:1px; }
+  .agenda-title{ color:var(--ink); font-weight:500; }
+  .agenda-note{ color:var(--ink-faint); font-size:12.5px; margin-top:2px; }
+
+  /* week */
+  .day-block{ margin-bottom:16px; }
+  .day-block:last-child{ margin-bottom:0; }
+  .day-label{
+    font-family:'Fraunces', Georgia, serif;
+    font-style:italic;
+    font-size:15px; color:var(--ink); margin-bottom:6px;
+  }
+  .day-tasks{ list-style:none; }
+  .day-tasks li{
+    font-size:13.5px; color:var(--ink-soft);
+    padding:4px 0 4px 16px; position:relative;
+  }
+  .day-tasks li::before{
+    content:''; position:absolute; left:0; top:11px;
+    width:5px; height:5px; border-radius:50%;
+    background:var(--ink-faint);
+  }
+  .day-tasks li.intly::before{ background:var(--mint); }
+  .day-tasks li.intly{ color:var(--ink); font-weight:500; }
+
+  /* fitness */
+  .fit-grid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .fit-cell{
+    background:var(--card-strong); border-radius:14px; padding:14px;
+    border:1px solid var(--line);
+  }
+  .fit-label{ font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:6px; }
+  .fit-value{ font-size:14px; color:var(--ink); line-height:1.4; font-weight:500; }
+  .fit-cell.full{ grid-column:1 / -1; }
+
+  /* email */
+  .mail-item{ padding:9px 0; border-bottom:1px solid var(--line); }
+  .mail-item:last-child{ border-bottom:none; }
+  .mail-tag{
+    display:inline-block; font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+    padding:2px 7px; border-radius:20px; margin-bottom:5px;
+  }
+  .mail-tag.action{ background:rgba(255,155,110,0.16); color:var(--ink); }
+  .mail-tag.note{ background:rgba(255,255,255,0.08); color:var(--ink-faint); }
+  .mail-title{ font-size:13.5px; color:var(--ink); font-weight:500; }
+  .mail-sub{ font-size:12.5px; color:var(--ink-faint); margin-top:2px; }
+
+  /* news lists */
+  .news-item{
+    display:block; padding:11px 0; border-bottom:1px solid var(--line);
+    text-decoration:none; color:inherit;
+  }
+  .news-item:last-child{ border-bottom:none; }
+  .news-source{
+    font-size:10.5px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-faint); margin-bottom:4px;
+  }
+  .news-headline{
+    font-size:14.5px; color:var(--ink); line-height:1.35; font-weight:500;
+    transition:color .15s ease;
+  }
+  .news-item:hover .news-headline{ text-decoration:underline; text-decoration-color:var(--ink-faint); }
+
+  .bof-callout{
+    margin-top:14px; padding-top:14px; border-top:1px dashed var(--line);
+  }
+  .bof-label{
+    font-family:'Fraunces', Georgia, serif; font-style:italic;
+    font-size:13px;
+    color:var(--ink-soft); margin-bottom:8px;
+  }
+
+  footer.note{
+    font-family:'Fraunces', Georgia, serif;
+    font-style:italic;
+    font-size:13px; color:var(--ink-faint); text-align:center;
+    margin-top:30px; line-height:1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="glow"></div>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="eyebrow">Saturday · August 8, 2026</div>
+    <h1 class="greeting">Morning, Matt.</h1>
+    <div class="weather-row">
+      <span class="temp">15°</span>
+      <span>Partly cloudy, Melbourne</span>
+      <span class="dot">·</span>
+      <span>Low 10°</span>
+      <span class="dot">·</span>
+      <span>Sunrise 7:14am / Sunset 5:37pm</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="card">
+      <div class="section-title">Today <span class="count">8 things</span></div>
+      <div class="agenda-item"><div class="agenda-time">7:00</div><div><div class="agenda-title">Morning run</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">9:45</div><div><div class="agenda-title">Engagement appointment</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">11:15</div><div><div class="agenda-title">Errands</div><div class="agenda-note">Pickup chairs, 2XU order</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">1:00</div><div><div class="agenda-title">Admin</div><div class="agenda-note">Cancel Avid, grocery order for Sunday pickup</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">1:30</div><div><div class="agenda-title">Audio role outreach</div><div class="agenda-note">Two outbound messages — not listings</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">2:30</div><div><div class="agenda-title">Intly</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">5:00</div><div><div class="agenda-title">Sauna</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">7:30</div><div><div class="agenda-title">Batman</div></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-title">This Week</div>
+
+      <div class="day-block">
+        <div class="day-label">Sunday</div>
+        <ul class="day-tasks">
+          <li class="intly">Intly</li>
+          <li>Sketch / pint / Willet exploration</li>
+          <li>Sort GST, ATO</li>
+          <li>WRG group catch-up</li>
+          <li>Journal · request days off</li>
+          <li>Pinterest sort with Claude</li>
+          <li>Pitch / story, Scarpa reference dig</li>
+        </ul>
+      </div>
+
+      <div class="day-block">
+        <div class="day-label">Monday</div>
+        <ul class="day-tasks">
+          <li class="intly">Intly</li>
+          <li>Read · coasters</li>
+          <li>App — next steps, fill out flow</li>
+          <li>Check how Cosmos handled instructional leave</li>
+          <li>Request day off</li>
+        </ul>
+      </div>
+
+      <div class="day-block">
+        <div class="day-label">Tuesday</div>
+        <ul class="day-tasks">
+          <li class="intly">Intly</li>
+          <li>TRD ×2</li>
+          <li>Edits ×2</li>
+          <li>Gaskill / Zamora notes</li>
+          <li>Godard reference</li>
+        </ul>
+      </div>
+
+      <div class="day-block">
+        <div class="day-label">Wednesday</div>
+        <ul class="day-tasks">
+          <li class="intly">Intly</li>
+          <li>DeepL</li>
+          <li>App</li>
+          <li>Read pieces in bed</li>
+        </ul>
+      </div>
+
+      <div class="day-block">
+        <div class="day-label">Thursday</div>
+        <ul class="day-tasks">
+          <li class="intly">Intly</li>
+          <li>Coaster designs</li>
+          <li>Call tax — income and PAYG</li>
+          <li>App blaster marketing</li>
+          <li>Cancel Avid · send sortd</li>
+        </ul>
+      </div>
+
+      <div class="day-block">
+        <div class="day-label">Friday</div>
+        <ul class="day-tasks">
+          <li class="intly">Intly</li>
+          <li>Buy book · massage</li>
+          <li>Grocery shop for Saturday pickup</li>
+          <li>Sizar / Picasso sketch animation test</li>
+          <li>Connectors and chief of staff setup</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-title">Fitness</div>
+      <div class="fit-grid">
+        <div class="fit-cell">
+          <div class="fit-label">Today</div>
+          <div class="fit-value">Morning run + sauna recovery</div>
+        </div>
+        <div class="fit-cell">
+          <div class="fit-label">Strength trend</div>
+          <div class="fit-value">Not connected yet — log lifts somewhere and this fills in</div>
+        </div>
+        <div class="fit-cell full">
+          <div class="fit-label">Reminder</div>
+          <div class="fit-value">Water before coffee. Protein's on track — the gap this week is carbs around training, not total intake.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-title">Inbox <span class="count">201 unread</span></div>
+      <div class="mail-item">
+        <span class="mail-tag action">Needs attention</span>
+        <div class="mail-title">Railway trial has expired</div>
+        <div class="mail-sub">Billing upgrade needed to keep Intly's server running</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Worth a glance</span>
+        <div class="mail-title">Mandy — new creative freelancer &amp; crew roles</div>
+        <div class="mail-sub">Matches your job search filters</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Everything else</span>
+        <div class="mail-title">~18 promo emails sitting unread</div>
+        <div class="mail-sub">Mocka, Invaluable, AirAsia, UAD, Runway — nothing time-sensitive</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-title">Top News <span class="count">9</span></div>
+
+      <a class="news-item" href="https://www.bloomberg.com/news/articles/2026-08-07/us-futures-rise-as-trump-touts-iran-progress-awaiting-jobs-data" target="_blank" rel="noopener">
+        <div class="news-source">Bloomberg</div>
+        <div class="news-headline">US futures jump after economy unexpectedly shed jobs in July</div>
+      </a>
+      <a class="news-item" href="https://www.bloomberg.com/news/articles/2026-08-07/alito-tells-wsj-he-s-here-for-another-term-on-supreme-court" target="_blank" rel="noopener">
+        <div class="news-source">Bloomberg</div>
+        <div class="news-headline">Alito tells WSJ he's staying on the Supreme Court for another term</div>
+      </a>
+      <a class="news-item" href="https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services" target="_blank" rel="noopener">
+        <div class="news-source">Bloomberg</div>
+        <div class="news-headline">DeepSeek plans a significant price increase across its AI services</div>
+      </a>
+      <a class="news-item" href="https://www.bloomberg.com/news/articles/2026-08-06/us-court-orders-lifting-of-trump-s-freeze-on-wind-projects" target="_blank" rel="noopener">
+        <div class="news-source">Bloomberg</div>
+        <div class="news-headline">Judge orders Pentagon to lift its freeze on wind energy project reviews</div>
+      </a>
+      <a class="news-item" href="https://www.bloomberg.com/news/articles/2026-08-05/trump-fuels-hopes-of-hormuz-reopening-with-hints-a-deal-is-near" target="_blank" rel="noopener">
+        <div class="news-source">Bloomberg</div>
+        <div class="news-headline">Trump fuels hopes of a Hormuz reopening deal</div>
+      </a>
+      <a class="news-item" href="https://www.bloomberg.com/news/articles/2026-08-05/typhoon-dolphin-heads-for-china-bringing-heavy-rain-risk-to-east-coast" target="_blank" rel="noopener">
+        <div class="news-source">Bloomberg</div>
+        <div class="news-headline">Typhoon Dolphin tracks toward China, bringing heavy rain risk</div>
+      </a>
+      <a class="news-item" href="https://www.wsj.com/politics/policy/senate-panel-votes-to-hold-fauci-in-contempt-for-refusing-to-answer-questions-974dde4c" target="_blank" rel="noopener">
+        <div class="news-source">WSJ</div>
+        <div class="news-headline">Senate panel votes to hold Fauci in contempt over refused testimony</div>
+      </a>
+      <a class="news-item" href="https://www.forbes.com/councils/forbeshumanresourcescouncil/2026/08/04/ai-resistance-doesnt-announce-itself-so-heres-how-to-spot-it/" target="_blank" rel="noopener">
+        <div class="news-source">Forbes</div>
+        <div class="news-headline">AI resistance doesn't announce itself — here's how to spot it</div>
+      </a>
+      <a class="news-item" href="https://www.forbes.com/councils/forbestechcouncil/2026/08/05/marketing-to-an-agentic-customer-how-to-sell-to-an-ai/" target="_blank" rel="noopener">
+        <div class="news-source">Forbes</div>
+        <div class="news-headline">Marketing to an "agentic" customer: how to sell to an AI</div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-title">Melbourne <span class="count">5</span></div>
+
+      <a class="news-item" href="https://x.com/9NewsMelb" target="_blank" rel="noopener">
+        <div class="news-source">9News Melbourne</div>
+        <div class="news-headline">Sunshine grocer dies after alleged assault by group of teenagers</div>
+      </a>
+      <a class="news-item" href="https://x.com/9NewsMelb" target="_blank" rel="noopener">
+        <div class="news-source">9News Melbourne</div>
+        <div class="news-headline">13-year-old killed after being hit by a car in Roxburgh Park</div>
+      </a>
+      <a class="news-item" href="https://x.com/9NewsMelb" target="_blank" rel="noopener">
+        <div class="news-source">9News Melbourne</div>
+        <div class="news-headline">Nicky Winmar's abuse victim testifies as he covers his ears in court</div>
+      </a>
+      <a class="news-item" href="https://x.com/9NewsMelb" target="_blank" rel="noopener">
+        <div class="news-source">9News Melbourne</div>
+        <div class="news-headline">Arson attack destroys jiu-jitsu studio, damages gym in Maidstone</div>
+      </a>
+      <a class="news-item" href="https://x.com/9NewsMelb" target="_blank" rel="noopener">
+        <div class="news-source">9News Melbourne</div>
+        <div class="news-headline">Premier Ben Carroll under pressure to sack public servant over secret firefighters deal</div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-title">Design &amp; Media World <span class="count">8</span></div>
+
+      <a class="news-item" href="https://www.dezeen.com/2026/08/07/riba-neave-brown-award-shortlist-2026-news/" target="_blank" rel="noopener">
+        <div class="news-source">Dezeen</div>
+        <div class="news-headline">RIBA reveals shortlist for UK's best affordable housing of 2026</div>
+      </a>
+      <a class="news-item" href="https://www.dezeen.com/2026/08/04/dulles-revamp-trump-united-airlines-concept-dezeen-debate/" target="_blank" rel="noopener">
+        <div class="news-source">Dezeen</div>
+        <div class="news-headline">Dezeen Debate: a "shameless" proposal for Dulles airport</div>
+      </a>
+      <a class="news-item" href="https://www.dezeen.com/2026/08/04/river-architects-china-pond-passive-house/" target="_blank" rel="noopener">
+        <div class="news-source">Dezeen</div>
+        <div class="news-headline">River Architects completes China Pond Passive House in New York</div>
+      </a>
+      <a class="news-item" href="https://www.dezeen.com/2026/08/04/house-in-a-clearing-sussex-uk-taylorhare-architects/" target="_blank" rel="noopener">
+        <div class="news-source">Dezeen</div>
+        <div class="news-headline">Agricultural farmsteads inform a metal-clad home in Sussex</div>
+      </a>
+      <a class="news-item" href="https://hypebeast.com/2026/8/palace-fall-2026-full-collection-release-info" target="_blank" rel="noopener">
+        <div class="news-source">Hypebeast</div>
+        <div class="news-headline">Every item from the Palace Fall 2026 collection</div>
+      </a>
+      <a class="news-item" href="https://www.designboom.com/art/storefront-canopies-streets-sculptures-urban-identity-egon-van-herreweghe-footnote-gallery/" target="_blank" rel="noopener">
+        <div class="news-source">designboom</div>
+        <div class="news-headline">Storefront canopies become sculptures of urban identity</div>
+      </a>
+      <a class="news-item" href="https://www.designboom.com/design/designboom-shop-drop-august-2026-limited-release-watches-architectural-jewelry/" target="_blank" rel="noopener">
+        <div class="news-source">designboom</div>
+        <div class="news-headline">Shop drop: watches and architectural jewelry for August</div>
+      </a>
+      <a class="news-item" href="https://www.designboom.com/art/radar-exhibitions-august/" target="_blank" rel="noopener">
+        <div class="news-source">designboom</div>
+        <div class="news-headline">Radar: exhibitions to see around the world this August</div>
+      </a>
+
+      <div class="bof-callout">
+        <div class="bof-label">Business of Fashion</div>
+        <a class="news-item" style="padding-top:0;" href="https://www.businessoffashion.com/news/beauty/nivea-beiersdorf-cuts-guidance/" target="_blank" rel="noopener">
+          <div class="news-headline">Nivea maker Beiersdorf cuts 2026 guidance, citing market conditions</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="note">Built fresh each morning · Trading kept separate, always</footer>
+
+</div>
+</body>
+</html>
