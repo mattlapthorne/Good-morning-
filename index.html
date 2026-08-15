@@ -134,6 +134,18 @@
   .day-tasks li.intly{ color:var(--ink); font-weight:500; }
   .today-loose{ margin-top:2px; }
 
+  .acct-label{
+    font-family:'Inter',sans-serif; font-weight:600;
+    font-size:11px; letter-spacing:.04em;
+    color:var(--ink-faint);
+    display:flex; align-items:baseline; justify-content:space-between;
+    margin:18px 0 4px;
+    padding-top:10px; border-top:1px dashed var(--line);
+  }
+  .acct-label .count{
+    font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+    font-weight:500; color:var(--ink-faint);
+  }
   .mail-item{ padding:9px 0; border-bottom:1px solid var(--line); }
   .mail-item:last-child{ border-bottom:none; }
   .mail-tag{
@@ -295,7 +307,9 @@
 
   <section>
     <div class="card">
-      <div class="section-title">Inbox — matt.lapthorne@gmail.com <span class="count">201 unread</span></div>
+      <div class="section-title">Inbox</div>
+
+      <div class="acct-label">matt.lapthorne@gmail.com <span class="count">201 unread</span></div>
       <div class="mail-item">
         <span class="mail-tag action">Needs attention</span>
         <div class="mail-title">DistroKid — billing card declined</div>
@@ -330,6 +344,35 @@
         <span class="mail-tag note">Everything else</span>
         <div class="mail-title">~37 promo/newsletter emails sitting unread</div>
         <div class="mail-sub">Myprotein, UAD, StockX, Oroton, Ralph Lauren, Bouf, Titleist, Railway digest — nothing time-sensitive</div>
+      </div>
+
+      <div class="acct-label">getintly@gmail.com <span class="count">1 unread</span></div>
+      <div class="mail-item">
+        <span class="mail-tag action">Needs attention</span>
+        <div class="mail-title">Google — security alert</div>
+        <div class="mail-sub">Worth a quick look to confirm it was you</div>
+      </div>
+
+      <div class="acct-label">info@williamrosegallery.com <span class="count">28 unread</span></div>
+      <div class="mail-item">
+        <span class="mail-tag note">Worth a glance</span>
+        <div class="mail-title">Lawsons — August Fine Art Auction closes Monday</div>
+        <div class="mail-sub">Plus a reminder from Theodore Bruce: the Zehner Collection auction is this Sunday</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Worth a glance</span>
+        <div class="mail-title">Notion — new device logged into your account</div>
+        <div class="mail-sub">Worth confirming that login was you</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Everything else</span>
+        <div class="mail-title">~25 auction-house digests and promos sitting unread</div>
+        <div class="mail-sub">Invaluable, LiveAuctioneers, Sotheby's, Christie's, Lloyds, Pottle, KCM Galleries — plus one unsolicited "partnership" pitch worth ignoring</div>
+      </div>
+
+      <div class="acct-label">matt@mattlapthornesound.com.au <span class="count">0 unread</span></div>
+      <div class="mail-item">
+        <div class="mail-sub">Inbox zero — nothing waiting here</div>
       </div>
     </div>
   </section>
