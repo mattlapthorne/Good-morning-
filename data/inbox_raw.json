@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T10:00:32.606891Z",
+  "generated_at_utc": "2026-08-15T17:55:28.922706Z",
   "accounts": {
     "personal": {
       "account": "personal",
@@ -11,9 +11,51 @@
     "wrg": {
       "account": "wrg",
       "email_address": "info@williamrosegallery.com",
-      "unread_total_estimate": 28,
-      "messages_fetched": 28,
+      "unread_total_estimate": 29,
+      "messages_fetched": 29,
       "messages": [
+        {
+          "id": "1a006623b1499bf0",
+          "from": "Upcoming on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Your August Calendar: Fine Art, Jewelry & Asian Art",
+          "date": "Sat, 15 Aug 2026 11:04:55 -0600",
+          "snippet": "Don&#39;t miss out on these remaining August featured auctions. Mark your calendar now and save your favorite pieces. View in Browser invaluable Upcoming in August Fine Art ADD SALE NAME ADD SALE NAME"
+        },
+        {
+          "id": "1a0066170d4ca367",
+          "from": "Upcoming on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Your August Calendar: Fine Art, Jewelry & Asian Art",
+          "date": "Sat, 15 Aug 2026 11:03:46 -0600",
+          "snippet": "Don&#39;t miss out on these remaining August featured auctions. Mark your calendar now and save your favorite pieces. View in Browser invaluable Upcoming in August Fine Art ADD SALE NAME ADD SALE NAME"
+        },
+        {
+          "id": "1a0064a5fb2d8cdb",
+          "from": "Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Your matches for Paintings, Sculptures and more favorites are here",
+          "date": "Sat, 15 Aug 2026 10:38:50 -0600",
+          "snippet": "Discover the latest items added to the marketplace matching your saved searches. View in Browser invaluable Search Auctions Matt Connecting You to the Things You Love New for Paintings Deborah Clack"
+        },
+        {
+          "id": "1a005bd31b5dff86",
+          "from": "Akiba Galleries on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Signature",
+          "date": "Sat, 15 Aug 2026 08:04:31 -0600",
+          "snippet": "Explore the 529 lots available from Akiba Galleries. Save your favorites and register today. Join live on Invaluable on August 18. View in Browser Upcoming On invaluable View this lot Rodolfo Nieto ("
+        },
+        {
+          "id": "1a0056ae1570a0bb",
+          "from": "Invaluable <invaluable@bid.invaluable.com>",
+          "subject": "You're Invited: Contemporary Art & Sculpture Auction by Ozbid Auctions",
+          "date": "Sat, 15 Aug 2026 06:34:40 -0600",
+          "snippet": "No additional registration needed. Discover what is available and bid on your favorites. View in Browser invaluable heart Saved bids Bids home Matt You&#39;re Invited Bid now with your pre-approval"
+        },
+        {
+          "id": "1a00553ba950d524",
+          "from": "Invaluable <invaluable@e.invaluable.com>",
+          "subject": "New Lawsons auction added",
+          "date": "Sat, 15 Aug 2026 06:09:26 -0600",
+          "snippet": "Browse the latest auction additions from your favorite sellers on Invaluable. Register now and streamline bidding later. View in Browser invaluable Search Auctions Matt Connecting You to the Sellers"
+        },
         {
           "id": "1a00445e54fb27f5",
           "from": "Ozbid Auctions on Invaluable <invaluable@e.invaluable.com>",
@@ -174,41 +216,6 @@
           "subject": "No Buyers Premium: Fantastic Framed Art",
           "date": "Thu, 13 Aug 2026 12:04:59 -0600",
           "snippet": "Explore the latest auction highlight from Invaluable. Find your next treasure today. View in Browser Upcoming On invaluable View this lot Salvador Dali Pantagruel Lithograph Signed Limited Framed No"
-        },
-        {
-          "id": "19ffbc5ab01eb516",
-          "from": "\"Christie's\" <Christies@em.christies.com>",
-          "subject": "Ever wondered what your collection is worth?",
-          "date": "Thu, 13 Aug 2026 15:37:42 +0000",
-          "snippet": "Contact us for a free and confidential valuation \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f"
-        },
-        {
-          "id": "19ffb8bc14d7f2f5",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "New Paintings, Sculptures and more matches: see them all",
-          "date": "Thu, 13 Aug 2026 08:34:21 -0600",
-          "snippet": "Discover the latest items added to the marketplace matching your saved searches. View in Browser invaluable Search Auctions Matt Connecting You to the Things You Love New for Paintings (2) Navajo"
-        },
-        {
-          "id": "19ffb48a0d951b69",
-          "from": "Fichter Kunsthandel on Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Old Master, 19th & 20th Century Works of Art",
-          "date": "Thu, 13 Aug 2026 07:20:44 -0600",
-          "snippet": "Browse this upcoming multi-session auction full of special pieces to add to your collection. View in Browser Upcoming On invaluable View this feaatured lot A. Mouilleron (*1820), Robinson Crusoe, 9"
-        },
-        {
-          "id": "19ffb0511fbf0d21",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "New auctions from Lawsons and Leonard Joel posted",
-          "date": "Thu, 13 Aug 2026 06:07:19 -0600",
-          "snippet": "Browse the latest auction additions from your favorite sellers on Invaluable. Register now and streamline bidding later. View in Browser invaluable Search Auctions Matt Connecting You to the Sellers"
-        },
-        {
-          "id": "19ffae4959cd2cbe",
-          "from": "Global Sources Vietnam Exhibition <service@globalsources.com>",
-          "subject": "Connect with Verified Vietnam and Asia Suppliers Year-Round",
-          "date": "Thu, 13 Aug 2026 07:31:49 -0400",
-          "snippet": "Start online, meet onsite, and continue building supplier partnerships after the show Connect with Verified Vietnam and Asia Suppliers Year-Round Can&#39;t read or view this email properly? Click here"
         }
       ]
     },
