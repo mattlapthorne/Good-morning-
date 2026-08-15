@@ -19,12 +19,24 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-ACCOUNTS = ["personal", "intly", "wrg"]
 QUERY = "is:unread newer_than:2d in:inbox"
 MAX_RESULTS = 50
 
+# Display label -> which secret/token file it actually reads from.
+# NOTE: "intly" and "wrg" were swapped during initial OAuth (the token
+# saved under the "intly" run turned out to be the William Rose Gallery
+# inbox, and the "wrg" run turned out to be the Intly Gmail). Rather than
+# re-authorize, we just fix the mapping here so the secret names on GitHub
+# never need to change.
+ACCOUNTS = {
+    "personal": "personal",
+    "wrg": "intly",
+    "intly": "wrg",
+}
 
-def load_creds(name: str) -> Credentials:
+
+def load_creds(label: str) -> Credentials:
+    name = ACCOUNTS[label]
     env_var = f"GMAIL_TOKEN_{name.upper()}"
     raw = os.environ.get(env_var)
     if raw:
