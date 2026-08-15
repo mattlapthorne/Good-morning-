@@ -1,0 +1,38 @@
+name: Fetch inbox data
+
+on:
+  schedule:
+    # 17:45 UTC = 3:45am Australia/Melbourne (AEST, UTC+10) — 15 min before
+    # the Claude routine builds the brief at 4:00am, so the data is fresh.
+    - cron: "45 17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch unread mail from all inboxes
+        env:
+          GMAIL_TOKEN_PERSONAL: ${{ secrets.GMAIL_TOKEN_PERSONAL }}
+          GMAIL_TOKEN_INTLY: ${{ secrets.GMAIL_TOKEN_INTLY }}
+          GMAIL_TOKEN_WRG: ${{ secrets.GMAIL_TOKEN_WRG }}
+        run: python3 scripts/fetch_inboxes.py
+
+      - name: Commit and push data/inbox_raw.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/inbox_raw.json
+          git diff --staged --quiet && echo "No changes" || (git commit -m "Update inbox data [automated]" && git push)
