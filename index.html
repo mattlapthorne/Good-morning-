@@ -132,15 +132,7 @@
   }
   .day-tasks li.intly::before{ background:var(--mint); }
   .day-tasks li.intly{ color:var(--ink); font-weight:500; }
-
-  .fit-grid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
-  .fit-cell{
-    background:var(--card-strong); border-radius:14px; padding:14px;
-    border:1px solid var(--line);
-  }
-  .fit-label{ font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:6px; }
-  .fit-value{ font-size:14px; color:var(--ink); line-height:1.4; font-weight:500; }
-  .fit-cell.full{ grid-column:1 / -1; }
+  .today-loose{ margin-top:2px; }
 
   .mail-item{ padding:9px 0; border-bottom:1px solid var(--line); }
   .mail-item:last-child{ border-bottom:none; }
@@ -206,8 +198,25 @@
 
   <section>
     <div class="card">
-      <div class="section-title">Today <span class="count">1 thing</span></div>
-      <div class="agenda-item"><div class="agenda-time">5:00</div><div><div class="agenda-title">Pay rent</div></div></div>
+      <div class="section-title">Today <span class="count">15 things</span></div>
+      <div class="agenda-item"><div class="agenda-time">5:00</div><div><div class="agenda-title">Pay rent</div><div class="agenda-note">From calendar — not in Weekly</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">6:00</div><div><div class="agenda-title">Walk with Mahalia &amp; Archie</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">10:00</div><div><div class="agenda-title">Ty shoes when at Chad</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">18:00</div><div><div class="agenda-title">Mind map</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">19:00</div><div><div class="agenda-title">Holidays</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">19:00</div><div><div class="agenda-title">Pinterest!!!</div></div></div>
+      <div class="agenda-item"><div class="agenda-time">21:30</div><div><div class="agenda-title">Good morning</div></div></div>
+      <ul class="day-tasks today-loose">
+        <li class="intly">Intly</li>
+        <li>Sir Joseph / retro Ralph</li>
+        <li>2 x carousel and drop!!</li>
+        <li>Cosmos test</li>
+        <li>Figma search bar animation, Claude &amp; Fig</li>
+        <li>Iron Man</li>
+        <li>Descale</li>
+        <li>Claude check-in — what's next to get going, prompt w/ marketing rollout</li>
+        <li>Current updates</li>
+      </ul>
     </div>
   </section>
 
@@ -218,57 +227,69 @@
       <div class="day-block">
         <div class="day-label">Sunday</div>
         <ul class="day-tasks">
-          <li>Nothing on the calendar</li>
+          <li class="intly">Walk with Mahalia &amp; Archie, 6:00-7:30am</li>
+          <li>Spidey workout, 9am</li>
+          <li>Meal prep, 8:30am</li>
+          <li>Stock X, 10am</li>
+          <li>Ralph, 6pm</li>
+          <li>Content figgeid against gram accnts</li>
+          <li>Founder morn Claude code</li>
+          <li>Carousel animation</li>
+          <li>3 x moodboard with one carousel</li>
+          <li>Last updates and TestFlight</li>
+          <li>Bond</li>
         </ul>
       </div>
 
       <div class="day-block">
         <div class="day-label">Monday</div>
         <ul class="day-tasks">
-          <li>Nothing on the calendar</li>
+          <li class="intly">Walk with Mahalia &amp; Archie, 6:00-7:30am</li>
+          <li class="intly">Work, 9am-7pm</li>
+          <li>Move charge</li>
+          <li>Apple appointment</li>
         </ul>
       </div>
 
       <div class="day-block">
         <div class="day-label">Tuesday</div>
         <ul class="day-tasks">
-          <li>Nothing on the calendar</li>
+          <li class="intly">Walk with Mahalia &amp; Archie, 6:00-7:30am</li>
+          <li class="intly">Work, 9am-7pm</li>
+          <li>Min map</li>
+          <li>Aop</li>
+          <li>Claude vid in bed</li>
+          <li>First impressions MM</li>
         </ul>
       </div>
 
       <div class="day-block">
         <div class="day-label">Wednesday</div>
         <ul class="day-tasks">
-          <li>Nothing on the calendar</li>
+          <li class="intly">Walk with Mahalia &amp; Archie, 6:00-7:30am</li>
+          <li class="intly">Work, 9am-7pm</li>
+          <li>Deem ear</li>
         </ul>
       </div>
 
       <div class="day-block">
         <div class="day-label">Thursday</div>
         <ul class="day-tasks">
-          <li>Nothing on the calendar</li>
+          <li class="intly">Walk with Mahalia &amp; Archie, 6:00-7:30am</li>
+          <li class="intly">Work, 9am-7pm</li>
+          <li>Tabs in bed</li>
         </ul>
       </div>
 
       <div class="day-block">
         <div class="day-label">Friday</div>
         <ul class="day-tasks">
-          <li>Nothing on the calendar</li>
+          <li class="intly">Walk with Mahalia &amp; Archie, 6:00-7:30am</li>
+          <li class="intly">Work, 9am-7pm</li>
+          <li>Touch base and key points for next</li>
         </ul>
       </div>
 
-    </div>
-  </section>
-
-  <section>
-    <div class="card">
-      <div class="section-title">Fitness</div>
-      <div class="fit-grid">
-        <div class="fit-cell full">
-          <div class="fit-label">Not connected yet</div>
-          <div class="fit-value">No fitness tracker linked — connect one and this section fills in with real training data.</div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -281,14 +302,34 @@
         <div class="mail-sub">Update payment info or your music catalogue could be taken offline</div>
       </div>
       <div class="mail-item">
+        <span class="mail-tag action">Needs attention</span>
+        <div class="mail-title">LinkedIn — Tony messaged you</div>
+        <div class="mail-sub">1 new message awaiting your response</div>
+      </div>
+      <div class="mail-item">
         <span class="mail-tag note">Worth a glance</span>
-        <div class="mail-title">Mandy — 3 new creative freelancer &amp; crew jobs</div>
-        <div class="mail-sub">Matches your saved search filters</div>
+        <div class="mail-title">Job alerts — 23 new roles matching your search</div>
+        <div class="mail-sub">Mandy (3 creative freelancer/crew) + Seek (20 audio designer)</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Worth a glance</span>
+        <div class="mail-title">Mahalia (Romano Beck) — 2 recommendations</div>
+        <div class="mail-sub">A rug and a set of paintings she thought you'd like</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Worth a glance</span>
+        <div class="mail-title">Auctions &amp; property — 6 emails</div>
+        <div class="mail-sub">Lawsons fine art (closes Monday), Invaluable lots, Biggin &amp; Scott and Belle Property listings</div>
+      </div>
+      <div class="mail-item">
+        <span class="mail-tag note">Worth a glance</span>
+        <div class="mail-title">Mercer Super — annual statement ready</div>
+        <div class="mail-sub">Nothing urgent, just sitting there</div>
       </div>
       <div class="mail-item">
         <span class="mail-tag note">Everything else</span>
-        <div class="mail-title">~199 promo emails sitting unread</div>
-        <div class="mail-sub">Myprotein, UAD, StockX, Invaluable, Oroton — nothing time-sensitive</div>
+        <div class="mail-title">~37 promo/newsletter emails sitting unread</div>
+        <div class="mail-sub">Myprotein, UAD, StockX, Oroton, Ralph Lauren, Bouf, Titleist, Railway digest — nothing time-sensitive</div>
       </div>
     </div>
   </section>
