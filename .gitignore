@@ -1,0 +1,12 @@
+# Secrets & credentials — never commit these
+client_secret*.json
+token_*.json
+*.env
+.env
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
