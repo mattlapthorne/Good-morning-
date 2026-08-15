@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T09:36:56.206909Z",
+  "generated_at_utc": "2026-08-15T10:00:32.606891Z",
   "accounts": {
     "personal": {
       "account": "personal",
@@ -8,8 +8,8 @@
       "messages_fetched": 0,
       "messages": []
     },
-    "intly": {
-      "account": "intly",
+    "wrg": {
+      "account": "wrg",
       "email_address": "info@williamrosegallery.com",
       "unread_total_estimate": 28,
       "messages_fetched": 28,
@@ -212,8 +212,8 @@
         }
       ]
     },
-    "wrg": {
-      "account": "wrg",
+    "intly": {
+      "account": "intly",
       "email_address": "getintly@gmail.com",
       "unread_total_estimate": 1,
       "messages_fetched": 1,
