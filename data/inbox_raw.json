@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T17:55:28.922706Z",
+  "generated_at_utc": "2026-08-16T17:54:23.380046Z",
   "accounts": {
     "personal": {
       "account": "personal",
@@ -11,9 +11,114 @@
     "wrg": {
       "account": "wrg",
       "email_address": "info@williamrosegallery.com",
-      "unread_total_estimate": 29,
-      "messages_fetched": 29,
+      "unread_total_estimate": 34,
+      "messages_fetched": 34,
       "messages": [
+        {
+          "id": "1a00b5783460d4ad",
+          "from": "New Orleans Auction Galleries on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Interiors & Collections",
+          "date": "Sun, 16 Aug 2026 10:11:18 -0600",
+          "snippet": "Browse this upcoming multi-session auction full of special pieces to add to your collection. View in Browser Upcoming On invaluable View this feaatured lot Italian Gilt-Metal and Crystal Chandelier"
+        },
+        {
+          "id": "1a00b5246a159abf",
+          "from": "New Orleans Auction Galleries on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Interiors & Collections",
+          "date": "Sun, 16 Aug 2026 10:05:31 -0600",
+          "snippet": "Browse this upcoming multi-session auction full of special pieces to add to your collection. View in Browser Upcoming On invaluable View this feaatured lot Italian Gilt-Metal and Crystal Chandelier"
+        },
+        {
+          "id": "1a00b4307d12599a",
+          "from": "Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Your next Paintings, Sculptures, and more finds have arrived",
+          "date": "Sun, 16 Aug 2026 09:48:52 -0600",
+          "snippet": "Discover the latest items added to the marketplace matching your saved searches. View in Browser invaluable Search Auctions Matt Connecting You to the Things You Love New for Paintings GEORGE FLETT"
+        },
+        {
+          "id": "1a00b19f807a9353",
+          "from": "WinBids Auctions on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Fine Estate Jewelry & Collectables",
+          "date": "Sun, 16 Aug 2026 09:04:03 -0600",
+          "snippet": "Explore the 335 lots available from WinBids Auctions. Save your favorites and register today. Join live on Invaluable on August 18. View in Browser Upcoming On invaluable View this lot De Grisogono"
+        },
+        {
+          "id": "1a00ae30b55bf989",
+          "from": "Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Chinese Art & Antiques Spotlight | Chinese Painting & Important Asian Works of Art",
+          "date": "Sun, 16 Aug 2026 08:04:03 -0600",
+          "snippet": "Browse the curated collection by Eden Fine Antiques Galleries LLC coming to auction. Save your seat and register today. Unsubscribe invaluable logo Collector&#39;s Spotlight Chinese Art &amp; Antiques"
+        },
+        {
+          "id": "1a00aae5a98a78a8",
+          "from": "New Frontier Auction on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "New Frontier Old West Auction",
+          "date": "Sun, 16 Aug 2026 07:06:31 -0600",
+          "snippet": "Explore the 363 lots available from New Frontier Auction. Save your favorites and register today. Join live on Invaluable on August 22. View in Browser Upcoming On invaluable View this lot Ruskin Cigar"
+        },
+        {
+          "id": "1a00aaba782f86c0",
+          "from": "New Frontier Auction on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "New Frontier Old West Auction",
+          "date": "Sun, 16 Aug 2026 07:03:31 -0600",
+          "snippet": "Explore the 363 lots available from New Frontier Auction. Save your favorites and register today. Join live on Invaluable on August 22. View in Browser Upcoming On invaluable View this lot Ruskin Cigar"
+        },
+        {
+          "id": "1a00aa806c52b9c6",
+          "from": "Invaluable <invaluable@bid.invaluable.com>",
+          "subject": "Last Chance: Gold &Diamond 3.5 Cts Eternity Ring",
+          "date": "Sun, 16 Aug 2026 06:59:35 -0600",
+          "snippet": "Less than 8 hours left. Time is running out to bid on this saved lot. View in Browser invaluable Saved Bids Matt Last Call On Your Favorite Time is running out to bid on your lot from Simrit Collection"
+        },
+        {
+          "id": "1a00943fb439ef8c",
+          "from": "Roger Kearns <admin@kearnsauctions.com.au>",
+          "subject": "TODAY'S AUCTIONS",
+          "date": "Sun, 16 Aug 2026 06:30:27 +0000",
+          "snippet": "TODAY&#39;S AUCTIONS Jewellery - IDT/IGI New Old Stock (Aust. Wide Shipping Available) Aug 16, 2026 at 7:30 PM ACST https://auctions.kearnsauctions.com.au/auctions/4-MB6VA0/jewellery-idtigi-new-old-"
+        },
+        {
+          "id": "1a0092f5fd859e77",
+          "from": "Facebook <notification@priority.facebookmail.com>",
+          "subject": "Raelene sent you a friend request, plus more updates",
+          "date": "Sat, 15 Aug 2026 23:08:12 -0700",
+          "snippet": "William, see your unread messages and other notifications about Raelene Hampton and Frank Lapthorne. \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
+        },
+        {
+          "id": "1a007e0f2b6f6115",
+          "from": "LiveAuctioneers <alerts@liveauctioneers.com>",
+          "subject": "International Art Auction Gallery | $100 Start \u2013 Fine Art Sale",
+          "date": "Sat, 15 Aug 2026 20:02:57 -0400 (EDT)",
+          "snippet": "Share this Campaign Offering paintings by Pablo Picasso, Salvador Dali, Joan Miro, Jackson Pollock, Mark Rothko, Andy Warhol, Edgar Degas, Henri Matisse, Jean-Michel Basquiat, and many more. Having"
+        },
+        {
+          "id": "1a007e08a41a4514",
+          "from": "Notion Team <team@mail.notion.so>",
+          "subject": "Perfect meeting memory",
+          "date": "Sun, 16 Aug 2026 00:02:30 +0000",
+          "snippet": "AI Meeting Notes captures every detail \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f"
+        },
+        {
+          "id": "1a007ab0f56aff7f",
+          "from": "Lawsons Auctioneers <info@lawsons.com.au>",
+          "subject": "Closing Tonight | Classic Interiors Auction",
+          "date": "Sat, 15 Aug 2026 23:03:06 +0000",
+          "snippet": "\u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f"
+        },
+        {
+          "id": "1a007827a175b332",
+          "from": "Lloyds Auctioneers and Valuers <insider@lloydsauctions.com.au>",
+          "subject": "Auctions Closing Today",
+          "date": "Sat, 15 Aug 2026 22:19:46 +0000 (UTC)",
+          "snippet": "Auctions Closing Today Are you looking to turn your assets into cash fast? SELL with Lloyds NOW Don&#39;t miss out on our diverse array of auctions closing today! We have a wide variety of items going"
+        },
+        {
+          "id": "1a0073d6cf45d2bc",
+          "from": "eBay <ebay@reply.ebay.com.au>",
+          "subject": "\ud83d\udea8 Your fave finds are slipping away. Don't wait, Matt.",
+          "date": "Sat, 15 Aug 2026 21:04:19 +0000 (UTC)",
+          "snippet": "Find everything from motors to fashion, no matter your passion. \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c"
+        },
         {
           "id": "1a006623b1499bf0",
           "from": "Upcoming on Invaluable <invaluable@e.invaluable.com>",
@@ -146,76 +251,6 @@
           "subject": "Contemporary & Modern Art",
           "date": "Fri, 14 Aug 2026 13:05:59 -0600",
           "snippet": "No additional online commission fee with this Robinhood Auctions auction. Explore the 920 lots available. View in Browser Upcoming On invaluable View this lot Peter Lik, River Titan, Limited Edition"
-        },
-        {
-          "id": "1a000cdc408d04ee",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "New lots posted for Paintings, Sculptures and more saved keywords",
-          "date": "Fri, 14 Aug 2026 09:03:20 -0600",
-          "snippet": "Discover the latest items added to the marketplace matching your saved searches. View in Browser invaluable Search Auctions Matt Connecting You to the Things You Love New for Paintings John Moyers"
-        },
-        {
-          "id": "1a000771b3d71d53",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "New Lawsons auctions added",
-          "date": "Fri, 14 Aug 2026 07:29:57 -0600",
-          "snippet": "Browse the latest auction additions from your favorite sellers on Invaluable. Register now and streamline bidding later. View in Browser invaluable Search Auctions Matt Connecting You to the Sellers"
-        },
-        {
-          "id": "1a00026814504fa5",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Lots to Watch",
-          "date": "Fri, 14 Aug 2026 06:01:57 -0600",
-          "snippet": "Access curated, not-to-be missed auction items. Find your next treasure this weekend on Invaluable. View in Browser invaluable Search Auctions My Invaluable Auction Watch List Not-to-be missed lots"
-        },
-        {
-          "id": "19ffff0067df1de3",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Lots to Watch",
-          "date": "Fri, 14 Aug 2026 05:02:26 -0600",
-          "snippet": "Access curated, not-to-be missed auction items. Find your next treasure this weekend on Invaluable. View in Browser invaluable Search Auctions My Invaluable Auction Watch List Not-to-be missed lots"
-        },
-        {
-          "id": "19fff153aeeefe1a",
-          "from": "Lawsons Auctioneers <info@lawsons.com.au>",
-          "subject": "What's On At Lawsons",
-          "date": "Fri, 14 Aug 2026 07:03:06 +0000",
-          "snippet": "\u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f"
-        },
-        {
-          "id": "19ffe8952c24d303",
-          "from": "Roger Kearns <admin@kearnsauctions.com.au>",
-          "subject": "UPCOMING AUCTIONS",
-          "date": "Fri, 14 Aug 2026 04:30:23 +0000",
-          "snippet": "UPCOMING AUCTIONS Jewellery - IDT/IGI New Old Stock (Aust. Wide Shipping Available) Aug 16, 2026 at 7:30 PM ACST https://auctions.kearnsauctions.com.au/auctions/4-MB6VA0/jewellery-idtigi-new-old-stock-"
-        },
-        {
-          "id": "19ffd92c793584b5",
-          "from": "Notion Team <team@mail.notion.so>",
-          "subject": "Want to use Notion 50% faster?",
-          "date": "Fri, 14 Aug 2026 00:01:19 +0000",
-          "snippet": "Get the desktop app for the ultimate experience \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f"
-        },
-        {
-          "id": "19ffd27a7494d52b",
-          "from": "Pottle Auctions on Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Urgent Bankrupt Stock Auction: Fine Jewelry, Rare Watches & Designer Bags",
-          "date": "Thu, 13 Aug 2026 16:04:07 -0600",
-          "snippet": "Explore the 251 lots available from Pottle Auctions. Save your favorites and register today. Join live on Invaluable on August 16. View in Browser Upcoming On invaluable View this lot Fine Jewelry,"
-        },
-        {
-          "id": "19ffd26b89df1215",
-          "from": "Pottle Auctions on Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Urgent Bankrupt Stock Auction: Fine Jewelry, Rare Watches & Designer Bags",
-          "date": "Thu, 13 Aug 2026 16:02:58 -0600",
-          "snippet": "Explore the 251 lots available from Pottle Auctions. Save your favorites and register today. Join live on Invaluable on August 16. View in Browser Upcoming On invaluable View this lot Fine Jewelry,"
-        },
-        {
-          "id": "19ffc4d261abfd99",
-          "from": "KCM Galleries on Invaluable <invaluable@e.invaluable.com>",
-          "subject": "No Buyers Premium: Fantastic Framed Art",
-          "date": "Thu, 13 Aug 2026 12:04:59 -0600",
-          "snippet": "Explore the latest auction highlight from Invaluable. Find your next treasure today. View in Browser Upcoming On invaluable View this lot Salvador Dali Pantagruel Lithograph Signed Limited Framed No"
         }
       ]
     },
