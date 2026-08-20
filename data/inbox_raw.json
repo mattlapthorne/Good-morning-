@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T17:57:44.202269Z",
+  "generated_at_utc": "2026-08-20T18:01:15.890889Z",
   "accounts": {
     "personal": {
       "account": "personal",
@@ -11,9 +11,142 @@
     "wrg": {
       "account": "wrg",
       "email_address": "info@williamrosegallery.com",
-      "unread_total_estimate": 24,
-      "messages_fetched": 24,
+      "unread_total_estimate": 33,
+      "messages_fetched": 33,
       "messages": [
+        {
+          "id": "1a01f954dd2d25d2",
+          "from": "Invaluable <invaluable@e.invaluable.com>",
+          "subject": "New Paintings, Sculptures and more matches: see them all",
+          "date": "Thu, 20 Aug 2026 08:31:06 -0600",
+          "snippet": "Discover the latest items added to the marketplace matching your saved searches. View in Browser invaluable Search Auctions Matt Connecting You to the Things You Love New for Paintings LIN FENGMIAN"
+        },
+        {
+          "id": "1a01f8337f547ed9",
+          "from": "C A Auctioneers on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Hermes, Vuitton, Gucci, Cartier and Rolex at Auction",
+          "date": "Thu, 20 Aug 2026 08:11:23 -0600",
+          "snippet": "No additional online commission fee with this CA Auctioneers auction. Explore the 181 lots available. View in Browser Upcoming On invaluable View this lot IGI Certified Oscar Friedman Three-Stone Lab"
+        },
+        {
+          "id": "1a01f53e48240162",
+          "from": "KCM Galleries on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "No Buyers Premium | Fantastic Framed Art",
+          "date": "Thu, 20 Aug 2026 07:19:40 -0600",
+          "snippet": "Explore the latest auction highlight from Invaluable. Find your next treasure today. View in Browser Upcoming On invaluable View this lot 1974 Salvador Dali, Apparatus and Hand, Framed No Buyers"
+        },
+        {
+          "id": "1a01f12180c7e1cb",
+          "from": "Invaluable <invaluable@e.invaluable.com>",
+          "subject": "New auctions from Lawsons and Leonard Joel posted",
+          "date": "Thu, 20 Aug 2026 06:07:48 -0600",
+          "snippet": "Browse the latest auction additions from your favorite sellers on Invaluable. Register now and streamline bidding later. View in Browser invaluable Search Auctions Matt Connecting You to the Sellers"
+        },
+        {
+          "id": "1a01e6a95cc01fba",
+          "from": "LiveAuctioneers <alerts@liveauctioneers.com>",
+          "subject": "Ahlers & Ogletree Auction Gallery | Modern Art, Design & Important Estates",
+          "date": "Thu, 20 Aug 2026 05:03:00 -0400 (EDT)",
+          "snippet": "Share this Campaign Ahlers &amp; Ogletree presents its Modern &amp; Contemporary Art &amp; Design Auction, including the Estate of Barbara &amp; Sanford Orkin. Having trouble viewing this email? Click"
+        },
+        {
+          "id": "1a01e5bf915deda4",
+          "from": "Global Sources Vietnam Exhibition <service@globalsources.com>",
+          "subject": "Fashion & Accessories Market Watch: What Should Buyers Source Next?",
+          "date": "Thu, 20 Aug 2026 04:48:54 -0400",
+          "snippet": "Explore four market shifts shaping Fashion &amp; Accessories sourcing and discover new supplier opportunities from Vietnam and across AsiaExplore four market shifts shaping Fashion &amp; Accessories"
+        },
+        {
+          "id": "1a01cf2f47929f64",
+          "from": "Solo by MYOB <noreply@emails.myob.com>",
+          "subject": "Offer ends soon: Claim $50 when you open a new Solo Money account before 31 August",
+          "date": "Thu, 20 Aug 2026 12:14:37 +1000",
+          "snippet": "A few simple habits now can save a heap of hassle next EOFY. \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f"
+        },
+        {
+          "id": "1a01cb045bb8edac",
+          "from": "\"Sotheby's\" <updates@email.sothebys.com>",
+          "subject": "Arcade Sale",
+          "date": "Thu, 20 Aug 2026 01:01:48 +0000",
+          "snippet": "OPEN TO BROWSE Arcade Sale Live Auction \u2022 20 August 2026 - 28 August 2026 \u2022 London Bid Now https://rmsothebys.com/auctions/sv26/lots/r0001-2010-lamborghini-murcielago-lp-6704-sv/?utm_source="
+        },
+        {
+          "id": "1a01c7b3204bb293",
+          "from": "LiveAuctioneers <alerts@liveauctioneers.com>",
+          "subject": "Art Legacy Auctions | Fine Art Auction Live Summer Specials",
+          "date": "Wed, 19 Aug 2026 20:03:00 -0400 (EDT)",
+          "snippet": "Share this Campaign Art Legacy presents choice works of modern and contemporary fine art. Having trouble viewing this email? Click here to view it online. Liveauctioneers logo Person icon"
+        },
+        {
+          "id": "1a01c74fbe307f27",
+          "from": "Lloyds Auctioneers and Valuers <insider@lloydsauctions.com.au>",
+          "subject": "Inside Scoop",
+          "date": "Wed, 19 Aug 2026 23:57:02 +0000 (UTC)",
+          "snippet": ""
+        },
+        {
+          "id": "1a01c47812285e86",
+          "from": "\"Oliver Barker | Sotheby's\" <updates@email.sothebys.com>",
+          "subject": "The Foujita Lexicon: Works from the Lewis Collection",
+          "date": "Wed, 19 Aug 2026 23:07:22 +0000",
+          "snippet": "Masterpieces by Foujita to be offered in a dedicated auction in Hong Kong AUCTIONS | BUY NOW | PRIVATE SALES | SELL L\u00e9onard Tsuguharu Foujita, Mon Portrait, 1924. Estimate: 8000000 - 1200000 HKD. Dear"
+        },
+        {
+          "id": "1a01c43088d07084",
+          "from": "Lawsons Auctioneers <info@lawsons.com.au>",
+          "subject": "Closing Tonight | Explore a Woolloomooloo Finger Wharf Contents",
+          "date": "Wed, 19 Aug 2026 23:02:13 +0000",
+          "snippet": "Home Contents under instructions from the Estate of the late John Laws CBE. \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f"
+        },
+        {
+          "id": "1a01c26e2ced5d68",
+          "from": "Lloyds Auctioneers and Valuers <insider@lloydsauctions.com.au>",
+          "subject": "Auctions Closing Today",
+          "date": "Wed, 19 Aug 2026 22:31:44 +0000 (UTC)",
+          "snippet": "Auctions Closing Today Are you looking to turn your assets into cash fast? SELL with Lloyds NOW Don&#39;t miss out on our diverse array of auctions closing today! We have a wide variety of items going"
+        },
+        {
+          "id": "1a01bf7eb8dbd7da",
+          "from": "\"feedback@service.alibaba.com\" <feedback@service.alibaba.com>",
+          "subject": "New seller message on 2026.08.19 05 AM",
+          "date": "Wed, 19 Aug 2026 14:40:25 -0700 (PDT)",
+          "snippet": "\ud83d\udcac [New message] Lena Liu: The seller sent a file. \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
+        },
+        {
+          "id": "1a01bda82948dac4",
+          "from": "This Week on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Featured Sales: Jewelry, Collectibles & Tribal Art",
+          "date": "Wed, 19 Aug 2026 15:08:17 -0600",
+          "snippet": "Explore what&#39;s coming up this week. Hundreds of catalogs filled with one-of-a-kind pieces waiting to be discovered View in Browser invaluable This Week&#39;s Auctions Featured Auction August 24, 9:"
+        },
+        {
+          "id": "1a01bd7b5882c7df",
+          "from": "This Week on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Featured Sales: Jewelry, Collectibles & Tribal Art",
+          "date": "Wed, 19 Aug 2026 15:04:38 -0600",
+          "snippet": "Explore what&#39;s at auctions this week. Hundreds of catalogs filled with one-of-a-kind pieces waiting to be discovered View in Browser invaluable This Week&#39;s Auctions View the Auction View the"
+        },
+        {
+          "id": "1a01b79d340b4ec6",
+          "from": "Gold Standard Auctions on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Orlando Operator Coin Auction",
+          "date": "Wed, 19 Aug 2026 13:22:42 -0600",
+          "snippet": "Browse this upcoming multi-session auction full of special pieces to add to your collection. View in Browser Upcoming On invaluable View this feaatured lot 1884-CC $10 Gold Eagle NGC MS61 Orlando"
+        },
+        {
+          "id": "1a01b7714571e4ee",
+          "from": "Gold Standard Auctions on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "Orlando Operator Coin Auction",
+          "date": "Wed, 19 Aug 2026 13:19:19 -0600",
+          "snippet": "Browse this upcoming multi-session auction full of special pieces to add to your collection. View in Browser Upcoming On invaluable View this feaatured lot 1884-CC $10 Gold Eagle NGC MS61 Orlando"
+        },
+        {
+          "id": "1a01b40a10d92a91",
+          "from": "Barridoff Auctions on Invaluable <invaluable@e.invaluable.com>",
+          "subject": "The Summer 2026 International Fine Art Sale",
+          "date": "Wed, 19 Aug 2026 12:19:01 -0600",
+          "snippet": "Explore the 243 lots available from Barridoff Auctions. Save your favorites and register today. Join live on Invaluable on August 22. View in Browser Upcoming On invaluable View this lot Andrew Wyeth ("
+        },
         {
           "id": "1a01ac3ae024c742",
           "from": "Invaluable <invaluable@e.invaluable.com>",
@@ -111,85 +244,23 @@
           "subject": "New Summer Arrivals",
           "date": "Tue, 18 Aug 2026 19:33:52 +0000",
           "snippet": "Just in! AUCTIONS | BUY NOW | PRIVATE SALES | SELL New Arrivals Discover a sophisticated blend of iconic designs and craftmanship. Shop Now Handbags Shop Now Jewelry Shop Now Handbags Shop Now Jewelry"
-        },
-        {
-          "id": "1a0155a96862e304",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "The latest Paintings, Sculptures and other treasures",
-          "date": "Tue, 18 Aug 2026 08:50:38 -0600",
-          "snippet": "Discover the latest items added to the marketplace matching your saved searches. View in Browser invaluable Search Auctions Matt Connecting You to the Things You Love New for Paintings HUANG GUO WU,"
-        },
-        {
-          "id": "1a01534c51502600",
-          "from": "Eden Fine Antiques Galleries LLC on Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Chinese Paintings & Important Asian Works of Art",
-          "date": "Tue, 18 Aug 2026 08:09:30 -0600",
-          "snippet": "Browse this upcoming multi-session auction full of special pieces to add to your collection. View in Browser Upcoming On invaluable View this feaatured lot Xu Beihong Goddess Nuwa Painting Chinese"
-        },
-        {
-          "id": "1a014c328c2b85ac",
-          "from": "Auktionshaus Eppli on Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Arts & Antiques",
-          "date": "Tue, 18 Aug 2026 06:05:27 -0600",
-          "snippet": "No additional online commission fee with this Auktionshaus Eppli auction. Explore the 147 lots available. View in Browser Upcoming On invaluable View this lot Jeroo (ie, Christoph Ganter, born 1980),"
-        },
-        {
-          "id": "1a0141dc7e48abdb",
-          "from": "LiveAuctioneers <alerts@liveauctioneers.com>",
-          "subject": "Florida Estate Sales | Last Days of Summer Auction - August 22nd",
-          "date": "Tue, 18 Aug 2026 05:02:56 -0400 (EDT)",
-          "snippet": "Share this Campaign Featuring fine jewelry and watches. Having trouble viewing this email? Click here to view it online. Liveauctioneers logo Person icon Liveauctioneers logo Heart icon Person icon"
-        },
-        {
-          "id": "1a013ae9cc75cf57",
-          "from": "Lawsons Auctioneers <info@lawsons.com.au>",
-          "subject": "Now Live | Australian Indigenous Art",
-          "date": "Tue, 18 Aug 2026 07:03:04 +0000",
-          "snippet": "\u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f \u200c \u034f"
-        },
-        {
-          "id": "1a012b7eddaf702a",
-          "from": "BOLAJI EXPERT 005 <ecombolaji02@gmail.com>",
-          "subject": "",
-          "date": "Tue, 18 Aug 2026 03:33:36 +0100",
-          "snippet": "Cn shwstar byu.."
-        },
-        {
-          "id": "1a012824d6d6a65a",
-          "from": "Lloyds Auctions <insider@lloydsauctions.com.au>",
-          "subject": "Weekly Consumer Auctions",
-          "date": "Tue, 18 Aug 2026 01:35:23 +0000 (UTC)",
-          "snippet": "View All Auctions"
-        },
-        {
-          "id": "1a01230efddaec4d",
-          "from": "Notion Team <team@mail.notion.so>",
-          "subject": "4 quick wins for your workspace",
-          "date": "Tue, 18 Aug 2026 00:06:30 +0000",
-          "snippet": "Set up your Notion workspace and workflows the right way. \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f"
-        },
-        {
-          "id": "1a011364313e3984",
-          "from": "LiveAuctioneers <liveauctioneers@mail.sailthru.com>",
-          "subject": "Scottsdale Art Auction | Summer | 2026",
-          "date": "Mon, 17 Aug 2026 15:32:43 -0400 (EDT)",
-          "snippet": "Share this Campaign Over 500 lots will be auctioned live online over two days August 21-22, 2026. Having trouble viewing this email? Click here to view it online. Liveauctioneers logo Person icon"
-        },
-        {
-          "id": "1a0111ee6399eb93",
-          "from": "Invaluable <invaluable@e.invaluable.com>",
-          "subject": "Tables, Stands, & Consoles Spotlight | Summer Estates & European Antiques",
-          "date": "Mon, 17 Aug 2026 13:07:09 -0600",
-          "snippet": "Browse the curated collection by Austin Auction Gallery coming to auction. Save your seat and register today. Unsubscribe invaluable logo Collector&#39;s Spotlight Tables, Stands, &amp; Consoles Summer"
         }
       ]
     },
     "intly": {
       "account": "intly",
       "email_address": "getintly@gmail.com",
-      "unread_total_estimate": 0,
-      "messages_fetched": 0,
-      "messages": []
+      "unread_total_estimate": 1,
+      "messages_fetched": 1,
+      "messages": [
+        {
+          "id": "1a01dbd10b78bb03",
+          "from": "Google <noreply-accounts@google.com>",
+          "subject": "You shared some Google Account data with particl.com",
+          "date": "Wed, 19 Aug 2026 22:55:24 -0700",
+          "snippet": "Keep track of your Google Account data getintly@gmail.com You&#39;re receiving this email because you used Sign in with Google to sign in to particl.com on 20 August at 15:55. This email summarises the"
+        }
+      ]
     }
   }
 }
