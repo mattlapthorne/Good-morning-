@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-08-24T18:03:05.849879Z",
+  "generated_at_utc": "2026-08-25T18:02:07.863524Z",
   "accounts": {
     "personal": {
       "account": "personal",
-      "error": "('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
+      "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
     },
     "wrg": {
       "account": "wrg",
